@@ -1,0 +1,93 @@
+
+*{
+}
+
+body{
+  
+}
+
+/** our menu **/ 
+h2{
+  text-align: center;
+  padding-top: 50px;
+}
+
+/** LOREM **/
+p{
+height: 1000px;
+background-color: #d9d9d9;
+padding: 10px;
+margin: 10px;
+
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/** navbar button **/ 
+
+.navbar-toggler:hover{
+ background: #808080;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'ariel', sans-serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+ text-decoration: none;
+}
+
+#navbar-nav {
+  padding: 20px;
+  margin-top: 10px;
+
+}
+
+.navbar-nav a {
+  padding: 10px;
+  text-align: center;
+  color: #0d0d0d;
+
+
+}
+.navbar-nav a:hover {
+  background: #808080;
+}
+.navbar-nav a span {
+  font-size: 1.8em;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.navbar-toggler{
+  display: none;
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+.navbar-toggler{
+  display: none;
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+
